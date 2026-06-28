@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Red String of Fate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0D0D0D;
+            --card-bg: #141414;
+            --text-primary: #F5F5F5;
+            --text-secondary: #A3A3A3;
+            --crimson: #E63946;
+            --crimson-glow: rgba(230, 57, 70, 0.15);
+            --border-color: #262626;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 48px;
+            position: relative;
+        }
+
+        /* The Red String graphic accent */
+        header::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 3px;
+            background: var(--crimson);
+            margin: 24px auto 0 auto;
+            border-radius: 2px;
+            box-shadow: 0 0 12px var(--crimson);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+        }
+
+        .subtitle {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--crimson);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-top: 36px;
+            margin-bottom: 16px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--crimson);
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
+
+        p, li {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        code {
+            font-family: 'JetBrains Mono', monospace;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 48px;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        footer a {
+            color: var(--crimson);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Red String of Fate</h1>
+            <div class="subtitle">Privacy Policy &bull; Last Updated: June 28, 2026</div>
+        </header>
+
+        <main class="card">
+            <p>Your privacy is the absolute core of our application philosophy. Unlike traditional dating and discovery apps, <strong>Red String of Fate</strong> is designed from the ground up to protect your precise physical location and personal identification.</p>
+            <p>This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and related database systems.</p>
+
+            <h2>1. Information We Collect</h2>
+            <p>To enable fated proximity alignments and double-blind matchmaking, we collect the following categories of data:</p>
+
+            <h3>A. Geolocation Data (The Radial Proximity Radar)</h3>
+            <ul>
+                <li><strong>What we collect:</strong> Passively obtained GPS coordinates (latitude, longitude) of your mobile device.</li>
+                <li><strong>How we secure it:</strong> Your coordinates are <strong>never</strong> shared directly with other users. They undergo a jittering process of 15 to 50 meters to introduce safe noise. Nearby users are represented dynamically as orbital nodes rather than absolute addresses.</li>
+            </ul>
+
+            <h3>B. Account & Profile Information</h3>
+            <ul>
+                <li><strong>Email address:</strong> Used strictly for account security, OAuth validation, and admin role mapping.</li>
+                <li><strong>Display details:</strong> Display name (minimum 2 characters), Date of birth (to enforce 18+ limit), and optional bio information.</li>
+            </ul>
+
+            <h3>C. Communications & Interpersonal Data</h3>
+            <ul>
+                <li><strong>Double-Blind Tethers:</strong> Private selections are kept securely sandboxed and are never revealed until a mutual match occurs.</li>
+                <li><strong>In-App Chats:</strong> Private encrypted-in-transit messaging rooms.</li>
+                <li><strong>Crimson AI Guide:</strong> Interaction logs processed securely via transient proxy nodes powered by the Gemini API.</li>
+            </ul>
+
+            <h2>2. How We Use Your Information</h2>
+            <p>We process your data purely to provide your proximity radar, compute bearings, match users who have mutually tethered, and power the interactive AI Relationship Guide.</p>
+
+            <h2>3. Data Protection and Retention</h2>
+            <ul>
+                <li><strong>No Sale of Data:</strong> We never lease, trade, or sell your personal metadata or location parameters to third parties.</li>
+                <li><strong>Transient Coordinates:</strong> Historical location coordinate telemetry is updated on-the-fly and pruned programmatically.</li>
+            </ul>
+
+            <h2>4. Your Rights and Controls</h2>
+            <p>You may restrict location tracking inside your Android system preferences or completely purge your registration, matchmaking history, and profile records at any time.</p>
+
+            <h2>5. Contact & Support</h2>
+            <p>For questions or formal data deletion inquiries, please reach out directly to: <a href="mailto:sidlabs.work@gmail.com" style="color: var(--crimson);">sidlabs.work@gmail.com</a>.</p>
+        </main>
+
+        <footer>
+            <p>© 2026 Sidlabs. Protected under global cryptographic alignment standards.</p>
+        </footer>
+    </div>
+</body>
+</html>
